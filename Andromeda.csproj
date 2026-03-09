@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="js\scene.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="js\constellation_sketcher.bundle.js" />
+    <None Remove="js\exstats.min.js" />
+    <None Remove="js\jquery-3.7.1.min.js" />
+    <None Remove="js\scene.js" />
+  </ItemGroup>
+
+</Project>

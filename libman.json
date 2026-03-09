@@ -1,0 +1,32 @@
+{
+  "version": "3.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "unpkg",
+      "library": "constellation-sketcher@1.0.3",
+      "destination": "lib/constellation-sketcher/"
+    },
+    {
+      "library": "jquery@3.7.1",
+      "destination": "lib/jquery/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "exstat@1.1.1",
+      "destination": "lib/exstat/"
+    },
+    {
+      "library": "tone@15.3.5",
+      "destination": "lib/tone/"
+    },
+    {
+      "library": "vanta@0.5.24",
+      "destination": "lib/vanta/"
+    },
+    {
+      "library": "three.js@r121",
+      "destination": "lib/three.js/"
+    }
+  ]
+}
