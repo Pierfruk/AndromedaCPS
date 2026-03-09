@@ -1,21 +1,4 @@
-﻿//let resizeTimeout;
-
-//document.addEventListener("DOMContentLoaded", function () {
-//    placeRandomStars();
-
-//    window.addEventListener("resize", onWindowResize);
-//});
-
-//function onWindowResize() {
-//    fadeOutAndAdjustStarPositions();
-//    clearTimeout(resizeTimeout);
-//    resizeTimeout = setTimeout(function () {
-//        removeExistingStars();
-//        placeRandomStars();
-//    }, 1000);
-//}
-
-const placeRandomStars = function (container) {
+﻿const placeRandomStars = function (container) {
     return new Promise((resolve) => {
         // Pixel density: 1 star per 5000 pixels
         const pixelDensity = 5000;
